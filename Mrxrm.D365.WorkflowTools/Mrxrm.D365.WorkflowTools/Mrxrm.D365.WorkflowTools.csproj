@@ -89,6 +89,8 @@
     <Reference Include="System.ServiceModel" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConvertBirthdayTo.cs" />
+    <Compile Include="DistributeWorkflowActivityManyToMany.cs" />
     <Compile Include="DistributeWorkflowActivityOneToMany.cs" />
     <Compile Include="Helpers\DynamicUrlParser.cs" />
     <Compile Include="IDistributeWorkflowActivity.cs" />

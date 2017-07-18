@@ -73,6 +73,10 @@ namespace Mrxrm.D365.WorkflowTools.Mrxrm.D365.WorkflowTools
 
             try
             {
+                //Todo: active only
+                //todo: exclude a record. so sibling distribution is possible
+                //todo: Many-to-many
+                //todo: FetchXML
                 var wfRef = DistributedWorkflow.Get<EntityReference>(executionContext);
 
                 if (wfRef == null)

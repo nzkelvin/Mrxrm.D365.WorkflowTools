@@ -5,6 +5,8 @@
       <WorkflowTypes>
         <clear />
         <WorkflowType FriendlyName="Distribute One to Many" Name="DistributeWorkflowActivityOneToMany" Description="Trigger workflows on children records." WorkflowActivityGroupName="Mr. Xrm WF Tools Relationship Utilities" WorkflowActivityProjectName="Mrxrm.D365.WorkflowTools" Id="00000000-0000-0000-0000-000000000000" TypeName="Mrxrm.D365.WorkflowTools.Mrxrm.D365.WorkflowTools.DistributeWorkflowActivityOneToMany" />
+        <WorkflowType FriendlyName="Distribute Many To Many" Name="DistributeWorkflowActivityManyToMany" Description="Trigger workflows on relationship records." WorkflowActivityGroupName="Mr. Xrm WF Tools Relationship Utilities" WorkflowActivityProjectName="Mrxrm.D365.WorkflowTools" Id="00000000-0000-0000-0000-000000000000" TypeName="Mrxrm.D365.WorkflowTools.Mrxrm.D365.WorkflowTools.DistributeWorkflowActivityManyToMany" />
+        <WorkflowType FriendlyName="Convert Birthday To" Name="ConvertBirthdayTo" Description="Convert a birthday date to a next birthday date, to the number of days since the last birthday, to the number of days to the next birthday." WorkflowActivityGroupName="Datetime Utilities" WorkflowActivityProjectName="Mrxrm.D365.WorkflowTools" Id="00000000-0000-0000-0000-000000000000" TypeName="Mrxrm.D365.WorkflowTools.Mrxrm.D365.WorkflowTools.ConvertBirthdayTo" />
       </WorkflowTypes>
     </Solution>
   </Solutions>

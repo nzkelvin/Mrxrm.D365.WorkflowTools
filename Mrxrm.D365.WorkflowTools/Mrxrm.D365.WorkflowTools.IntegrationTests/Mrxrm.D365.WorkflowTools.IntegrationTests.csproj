@@ -91,6 +91,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DistributeWorkflowActivityManyToMany_Tests\When_DistributeWorkflowActivityManyToMany_GetKeys.cs" />
     <Compile Include="DistributeWorkflowActivityOneToMany_Tests\When_DistributeWorkflowActivityOneToMany_GetKeys.cs" />
     <Compile Include="DistributeWorkflowActivityOneToMany_Tests\When_DistributeWorkflowActivityOneToMany_GetRelationshipInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

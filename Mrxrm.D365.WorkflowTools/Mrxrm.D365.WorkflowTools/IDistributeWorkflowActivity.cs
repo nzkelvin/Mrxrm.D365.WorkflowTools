@@ -8,6 +8,7 @@ namespace Mrxrm.D365.WorkflowTools.Mrxrm.D365.WorkflowTools
     public interface IDistributeWorkflowActivity
     {
         //IEnumerable<Guid> GetKeys(IOrganizationService orgService);
+        IEnumerable<Guid> GetKeys(EntityReference initialRef, string relationshipName, IOrganizationService orgService);
     }
 
     public static class DistributeWorkflowActivityExtensions
